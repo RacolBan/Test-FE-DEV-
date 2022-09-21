@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="menu-toogle">
+        <div class="hamburger">
+            <span></span>
+        </div>
+    </div>
+    <SideBar class="sidebar">
+        <a href="#" class="bar-item button is-active"><span class="text-a">&nbsp; Home</span></a>
+        <a href="#" class="bar-item button"><span class="text-a">&nbsp; Services</span></a>
+        <a href="#" class="bar-item button"><span class="text-a">&nbsp; New</span></a>
+        <a href="#" class="bar-item button"><span class="text-a">&nbsp; Blog</span></a>
+        <a href="#" class="bar-item button"><span class="text-a">&nbsp; Contact</span></a>
+    </SideBar>
+    <div class="container-content">
+        <img src="./public/logoNCC 1.png" alt="logoNCC" class="src">
+        <main>
+            <div class="main-content">
+                <h4>Lorem ipsum dolor sit asmet?</h4>
+                <p class="p-maintext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique consequat
+                    placerat. Vestibulum
+                    auctor pellentesque sem, eu posuere erat hendrerit quis. Maecenas vel consequat turpis. Nam
+                    facilisis, ligula in mattis sodales, augue justo tristique nulla, sed lacinia ante eros ut mi. Morbi
+                    vitae diam augue. Aliquam vel mauris a nibh auctor commodo. Praesent et nisi eu justo eleifend
+                    convallis. </p>
+            </div>
+            <div class="sub-content">
+                <div class="content-first">
+                    <h3>Lorem ipsum dolor sit asmet?</h3>
+                    <div class="img-text">
+                        <p>
+                            <img src="./public/css-icon 1.png" alt="icon">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique consequat
+                            placerat. Vestibulum
+                            auctor pellentesque sem, eu posuere erat hendrerit quis. Maecenas vel consequat turpis. Nam
+                            facilisis, ligula in mattis sodales, augue justo tristique nulla, sed lacinia ante eros ut
+                            mi. Morbi
+                            vitae diam augue. Aliquam vel mauris a nibh auctor commodo. Praesent et nisi eu justo
+                            eleifend
+                            convallis.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="content-second">
+                    <h3>Lorem ipsum dolor sit asmet?</h3>
+                    <div class="img-text">
+                        <p>
+                            <img src="./public/url-icon 1.png" alt="icon">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique consequat
+                            placerat. Vestibulum
+                            auctor pellentesque sem, eu posuere erat hendrerit quis. Maecenas vel consequat turpis. Nam
+                            facilisis, ligula in mattis sodales, augue justo tristique nulla, sed lacinia ante eros ut
+                            mi. Morbi
+                            vitae diam augue. Aliquam vel mauris a nibh auctor commodo. Praesent et nisi eu justo
+                            eleifend
+                            convallis.
+                        </p>
+                    </div>
+                </div>
+                <div class="content-thrid">
+                    <h3>Lorem ipsum dolor sit asmet?</h3>
+                    <div class="img-text">
+                        <p></p>
+                        <img src="./public/html-icon 1.png" icon">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique consequat
+                        placerat. Vestibulum
+                        auctor pellentesque sem, eu posuere erat hendrerit quis. Maecenas vel consequat turpis. Nam
+                        facilisis, ligula in mattis sodales, augue justo tristique nulla, sed lacinia ante eros ut mi.
+                        Morbi
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <footer>Copyright &copy; 2021; </footer>
+    </div>
+
+    <script>
+        const menuToogle = document.querySelector('.menu-toggle')
+        const sidebar = document.querySelector('.sidebar')
+        menuToogle.addEventListener("click", () => {
+            menuToogle.classList.toggle("is-active");
+            sidebar.classList.toggle("is-active");
+        })
+    </script>
+
+</body>
+
+</html>
